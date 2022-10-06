@@ -1,8 +1,8 @@
 package MyClasses;
 
 public class Author {
-    String firstname;
-    String lastname;
+    private String firstname;
+    private String lastname;
 
     public Author(){
 

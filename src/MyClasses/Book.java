@@ -19,12 +19,9 @@ public class Book {
     }
 
     public void AddAuthor(Author author) {
-        //Скопировать autrhors в newAuthors, где на одну ячейку больше
-        //Добавить в эту ячейку author из параметра метода
-        //Скопировать ссылку newAuthors в authors
-        Author[] newAuthors = Arrays.copyOf(authors, authors.length+1);
-        newAuthors[newAuthors.length-1] = author;
-        authors = newAuthors;
+        Author[] newAuthors = Arrays.copyOf(authors, authors.length+1); //Скопировать autrhors в newAuthors, где на одну ячейку больше
+        newAuthors[newAuthors.length-1] = author; //Добавить в эту ячейку author из параметра метода
+        authors = newAuthors; //Скопировать ссылку newAuthors в authors
     }
 
     public String getCaption() {

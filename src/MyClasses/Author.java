@@ -7,7 +7,6 @@ public class Author {
     public Author(){
 
     }
-    //хай
 
     public String getFirstname() {
         return firstname;
